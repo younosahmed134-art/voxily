@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voxily - Business Solution Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="logo.jpg" alt="Voxily Logo" class="nav-logo">
+                <span class="brand-name">Voxily</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">হোম</a></li>
+                <li><a href="#about">আমাদের সম্পর্কে</a></li>
+                <li><a href="#services">সেবাসমূহ</a></li>
+                <li><a href="#portfolio">প্রমোশনাল পোস্টার</a></li>
+                <li><a href="#contact">যোগাযোগ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>সঠিক সিদ্ধান্তই নির্ধারণ করবে আপনার ব্যবসার ভবিষ্যৎ</h1>
+                <p>আমরা আপনার ব্র্যান্ডের জন্য নিয়ে এসেছি ৩৬০° ডিজিটাল মার্কেটিং সলিউশন। স্মার্ট কন্টেন্ট এবং ম্যাক্সিমাম ইমপ্যাক্ট!</p>
+                <a href="#contact" class="btn">ফ্রি কনসালটেশন নিন</a>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Yeasair Arafat Ridoy - Founder & CEO" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title"><span>Voxily</span> সম্পর্কে</h2>
+            <p class="about-desc">
+                আমি <strong>ইয়াছির আরাফাত রিদয়</strong> (Founder & CEO, Voxily)। আমরা একটি ক্রিয়েটিভ বিজনেস সলিউশন এজেন্সি। আপনার ব্যবসাকে ডিজিটালি এগিয়ে নিতে এবং সঠিক গ্রাহকের কাছে পৌঁছাতে আমরা প্রফেশনাল ডিজিটাল মার্কেটিং, গ্রাফিক ডিজাইন ও স্ট্র্যাটেজি নিয়ে কাজ করে থাকি।
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="section dark-bg">
+        <div class="container">
+            <h2 class="section-title">আমাদের সেবাসমূহ (Our Services)</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>টারগেটেড অ্যাডস ও সঠিক মার্কেটিং স্ট্র্যাটেজির মাধ্যমে সেলস বৃদ্ধি করুন।</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Graphic Design</h3>
+                    <p>আকর্ষণীয় পোস্টার, লোগো ও ব্র্যান্ডিং ডিজাইন।</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Video Production</h3>
+                    <p>ব্যবসার প্রসারে আকর্ষণীয় ভিডিও কন্টেন্ট তৈরি।</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chess"></i>
+                    <h3>Strategy and Planning</h3>
+                    <p>ব্যবসার দীর্ঘমেয়াদী সফলতার জন্য সঠিক পরিকল্পনা।</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-share-alt"></i>
+                    <h3>Social Media Management</h3>
+                    <p>সোশ্যাল মিডিয়া পেজের গ্রোথ এবং প্রফেশনাল ম্যানেজমেন্ট।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">আমাদের ব্র্যান্ডিং পোস্টার</h2>
+            <div class="poster-gallery">
+                <div class="poster-card">
+                    <img src="poster1.jpg" alt="Voxily Poster 1">
+                </div>
+                <div class="poster-card">
+                    <img src="poster2.jpg" alt="Voxily Poster 2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section dark-bg">
+        <div class="container">
+            <h2 class="section-title">যোগাযোগ করুন</h2>
+            <p class="contact-info">📞 হটলাইন: <strong>+8801331387478</strong></p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://telegram.org" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; ২০২৬ Voxily - All Rights Reserved. Designed for Business Growth.</p>
+    </footer>
+
+</body>
+</html>
